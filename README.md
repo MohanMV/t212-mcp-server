@@ -40,13 +40,15 @@ Add this config:
 
 ```json
 {
-  "t212": {
-    "command": "node",
-    "args": ["/path/to/t212-mcp/index.mjs"],
-    "env": {
-      "T212_API_KEY": "your_api_key_here",
-      "T212_API_SECRET": "your_api_secret_here",
-      "T212_ENV": "live"
+  "mcpServers": {
+    "t212": {
+      "command": "node",
+      "args": ["/path/to/t212-mcp/index.mjs"],
+      "env": {
+        "T212_API_KEY": "your_api_key_here",
+        "T212_API_SECRET": "your_api_secret_here",
+        "T212_ENV": "live"
+      }
     }
   }
 }
