@@ -1,0 +1,11 @@
+{
+  "name": "t212-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "t212-mcp": "./index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
