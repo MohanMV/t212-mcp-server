@@ -27,8 +27,8 @@ In the Trading 212 app:
 ### 2. Install
 
 ```bash
-git clone https://github.com/MohanMV/t212-mcp.git
-cd t212-mcp
+git clone https://github.com/MohanMV/t212-mcp-server.git
+cd t212-mcp-server
 npm install
 ```
 
@@ -43,7 +43,7 @@ Add this config:
   "mcpServers": {
     "t212": {
       "command": "node",
-      "args": ["/path/to/t212-mcp/index.mjs"],
+      "args": ["/path/to/t212-mcp-server/index.mjs"],
       "env": {
         "T212_API_KEY": "your_api_key_here",
         "T212_API_SECRET": "your_api_secret_here",
